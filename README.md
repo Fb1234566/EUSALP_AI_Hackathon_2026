@@ -1,0 +1,1 @@
+# EUSALP_AI_Hackathon_2026
