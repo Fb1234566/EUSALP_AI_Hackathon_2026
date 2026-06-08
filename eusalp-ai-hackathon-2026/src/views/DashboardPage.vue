@@ -2,7 +2,7 @@
   <ion-page>
     <ion-header>
       <ion-toolbar color="primary">
-        <ion-title>Bavaria Protected Areas Decision Dashboard</ion-title>
+        <ion-title>PeakWise: Bavaria Protected Areas Decision Dashboard</ion-title>
       </ion-toolbar>
     </ion-header>
 
