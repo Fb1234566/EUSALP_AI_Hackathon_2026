@@ -24,22 +24,6 @@
               <div class="legend-item"><span class="color-box" style="background-color: lightgreen;"></span> Altmühl Valley Discovery Zone (Nature Park)</div>
             </div>
           </div>
-
-          <!-- Side Panel Section -->
-          <div class="side-panel">
-            <h3>Decision Proposals</h3>
-            <div class="proposals-list">
-              <div class="proposal-card" v-for="proposal in proposals" :key="proposal.rank">
-                <div class="proposal-rank">Rank {{ proposal.rank }}</div>
-                <div class="proposal-title">{{ proposal.title }}</div>
-                <div class="proposal-why"><strong>Why:</strong> {{ proposal.why }}</div>
-              </div>
-            </div>
-
-            <div class="demo-value">
-              <strong>Demo value:</strong> This is the clearest demo for stakeholders: the system does not simply promote empty places. It checks whether the alternative place can absorb the same visitor demand without ecological damage.
-            </div>
-          </div>
         </div>
       </div>
     </ion-content>
