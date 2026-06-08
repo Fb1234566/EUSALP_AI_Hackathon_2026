@@ -84,6 +84,9 @@ onMounted(() => {
     attribution: '© OpenStreetMap'
   }).addTo(map);
 
+  // Fix map rendering in flex layout
+  setTimeout(() => map.invalidateSize(), 0);
+
   // Define polygons
   // 1. Bavarian Forest Gateway (Dark green)
   const bavarianForest = L.polygon([
